@@ -1325,7 +1325,7 @@ int XM_IA_Work(void *pvHandle, IVE_IMAGE_S *pstImage, INTEL_CODING *pstMapCfg, Q
                 &(pstInitPara->pstGmmLk->stGMM.stBlob), &(pstInitPara->pstGmmLk->stGMM.stCclCtrl), bInstant);
     if (s32Ret != HI_SUCCESS)
     {
-        IA_Printf("CCL fail,Error(%x)\n", s32Ret);
+        IA_Printf("CCL fail,Error(0x%x)\n", s32Ret);
     }
 
 #ifdef _XM_IA_lINUX_

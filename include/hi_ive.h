@@ -455,7 +455,7 @@ typedef enum hiIVE_CCL_MODE_E
 */
 typedef struct hiIVE_CCL_CTRL_S
 {
-	IVE_CCL_MODE_E enMode;	  /*Mode*/
+//	IVE_CCL_MODE_E enMode;	  /*Mode*/
     HI_U16 u16InitAreaThr;    /*Init threshold of region area*/
     HI_U16 u16Step;           /*Increase area step for once*/
 }IVE_CCL_CTRL_S;

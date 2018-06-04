@@ -8,7 +8,7 @@ OBJSTMP ?= ./objs_tmp
 #DBG_ON_SERVER = 0
 
 ifndef DBG_ON_SERVER 
-CROSS = arm-hisiv500-linux-
+CROSS = arm-hisiv300-linux-
 CC 		= @echo " GCC $@"; $(CROSS)gcc
 CPP		= @echo " G++ $@"; $(CROSS)g++
 LD		= @echo " LD  $@"; $(CROSS)ld
